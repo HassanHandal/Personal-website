@@ -22,20 +22,6 @@ The project prioritizes a responsive design approach to ensure a seamless user e
 1. Clone the repository.
 2. Open the `index.html` file in your preferred web browser.
 
-## Folder Structure
-/personal-website
-│   index.html
-│   styles/
-│   ├── style.css
-│   
-│   
-│       
-│   
-│  
-│ 
-│   
-└── ...
-
 
 ## Contact
 
