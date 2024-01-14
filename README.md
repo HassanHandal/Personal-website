@@ -29,6 +29,6 @@ For any questions or feedback, feel free to contact the developer:
 
 - [Hassan Handal]
 - Email: [hassanhamdyfarid@gmail.com]
-- GitHub: [https://github.com/HassanHandal/personal-website.git]
+- GitHub: [https://github.com/HassanHandal]
 
 Happy coding!
