@@ -1,0 +1,49 @@
+.header {
+  padding: 3rem 0;
+  position: sticky;
+  top: 0;
+  background-color: var(--color-background);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+.header::before {
+  content: "";
+  height: 100%;
+  width: 100vw;
+  border-bottom: 0.1rem solid var(--color-input-border);
+  position: absolute;
+  top: 0.1rem;
+  z-index: -1;
+  background-color: var(--color-background);
+}
+.navigation {
+  transition: var(--transition-timing);
+}
+.navigation__list {
+  display: flex;
+  gap: 2rem;
+}
+.navigation__link:link,
+.navigation__link:visited {
+  text-decoration: none;
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text);
+}
+.navigation__link:hover,
+.navigation__link:active {
+  text-decoration: underline;
+  color: var(--color-text);
+}
+.container:has(#bio:target) .navigation__bio,
+.container:has(#skills:target) .navigation__skills,
+.container:has(#media:target) .navigation__media,
+.container:has(#projects:target) .navigation__projects,
+.container:has(#guests:target) .navigation__guests,
+.container:has(#contact:target) .navigation__contact {
+  text-decoration: underline;
+  color: var(--color-blue);
+}
+.burger-menu__checkbox {
+  display: none;
+}

@@ -1,0 +1,28 @@
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 11rem;
+}
+body {
+  font-family: var(--font-family-raleway);
+  font-size: 1.6rem;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+.container {
+  margin: 0 auto;
+  max-width: calc(var(--container-width) + var(--gutter) * 2);
+  display: grid;
+  row-gap: 11rem;
+  padding-inline: var(--gutter);
+  min-width: 100vw;
+}
+.video-loop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.08;
+  z-index: -1;
+}

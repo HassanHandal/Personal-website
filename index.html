@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hassan Handal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/styles/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <video class="video-loop" autoplay loop muted>
+        <source src="video-loop.mp4" type="video/mp4" />
+      </video>
+      <header class="header">
+        <label class="burger-menu" for="menu">
+          <div class="burger-menu-bar"></div>
+          <div class="burger-menu-bar"></div>
+          <div class="burger-menu-bar"></div>
+        </label>
+        <input class="burger-menu__checkbox" id="menu" type="checkbox" />
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link navigation__bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link navigation__skills"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="#media" class="navigation__link navigation__media"
+                >Media</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="navigation__link navigation__projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#guests" class="navigation__link navigation__guests"
+                >My Guests</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="navigation__link navigation__contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi There, I’M A Passionate Software Engineer
+          </h1>
+          <p class="bio__objective">
+            My name is <span class="bio__name">Hassan Handal</span> a retail
+            pharmacist at
+            <a href="https://www.nahdi.sa/" target="_blank" class="bio__nahdi"
+              >Al Nahdi Medical Company</a
+            >, student at
+            <a
+              href="https://almdrasa.com/"
+              target="_blank"
+              class="bio__almdrasa"
+              >Almdrasa</a
+            >
+            in full-stack front-end Diploma publishing my projects on
+            <a
+              href="https://www.linkedin.com/in/hassan-handal"
+              target="_blank"
+              class="bio__linkedin"
+              >Linkedin</a
+            >.
+          </p>
+          <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+          <a href="/Resume-Hassan-Handal.pdf" class="bio__links find-out-link"
+            >Download CV <span class="bio__arrow">🡣</span></a
+          >
+        </div>
+        <div class="bio__pic-content">
+          <img
+            class="bio__pic"
+            src="images/personal-pic.png"
+            alt="image of hassan handal"
+          />
+        </div>
+      </section>
+      <section id="skills" class="skills section">
+        <h2 class="h2-heading">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-head">
+            Retail Pharmacist
+            <div class="skills__list-tail">3 years</div>
+          </li>
+          <li class="skills__list-head">
+            Patient Counseling
+            <div class="skills__list-tail">5 years</div>
+          </li>
+          <li class="skills__list-head">
+            Medical E-commerce
+            <div class="skills__list-tail">1 year</div>
+          </li>
+          <li class="skills__list-head">
+            Medical Call Center
+            <div class="skills__list-tail">4 years</div>
+          </li>
+          <li class="skills__list-head">
+            Python
+            <div class="skills__list-tail">2 months</div>
+          </li>
+          <li class="skills__list-head">
+            HTML
+            <div class="skills__list-tail">2 months</div>
+          </li>
+          <li class="skills__list-head">
+            CSS
+            <div class="skills__list-tail">2 months</div>
+          </li>
+        </ul>
+      </section>
+      <section id="media" class="section media">
+        <video class="media__video" poster="images/thumbnail.jpg" controls>
+          <source src="video.mp4" type="video/mp4" />
+        </video>
+      </section>
+      <section id="projects" class="projects section">
+        <h2 class="h2-heading">
+          my featured <br />
+          projects
+        </h2>
+        <div class="projects__main">
+          <img
+            src="/images/project-1.jpg"
+            alt="دورة ففروا إلى الله"
+            class="projects__img"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">Ramadan Course</h3>
+            <p class="projects__description">
+              After Disasters struck us and the affliction became severe, the
+              time has come to respond to God and the Messenger - Peace be upon
+              him-. Let us flee to God..
+              <span class="bio__name">Ramadan</span> is our opportunity... to
+              remove distress from our nation.
+            </p>
+            <a
+              href="https://t.me/wakana_lana_abedeen"
+              class="projects__link"
+              target="_blank"
+              >Telegram Link</a
+            >
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3-heading">Quran Station Extention</h3>
+            <p class="projects__description">
+              Small extension that gives you access to over 100 stations to help
+              you listen to the Quran from your favorite reciters easily
+              Quran-Station has over 100 stations to help you listen to the
+              Quran from your favorite reciters in a quick and easy way.
+            </p>
+            <a
+              href="https://chromewebstore.google.com/detail/quran-station/angdimijeelplemmdnedhnjidadfphom"
+              class="projects__link"
+              target="_blank"
+              >Chrome Link</a
+            >
+          </div>
+          <img
+            src="/images/project-2.jpg"
+            alt="quran station extention"
+            class="projects__img"
+          />
+        </div>
+      </section>
+      <section id="guests" class="guests section">
+        <h2 class="h2-heading">
+          what my guests <br />
+          say
+        </h2>
+        <div class="guests__opinions">
+          <div class="guests__wrapper">
+            <p class="guests__opinion">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed
+              dolores enim consequatur, nobis omnis, corporis earum repellendus
+              aut aliquid rem tempore? Explicabo ipsa blanditiis consectetur
+              eaque impedit odio voluptatibus nisi?
+            </p>
+            <p class="guests__opinion">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+              hic! A neque voluptas obcaecati, eum repudiandae laboriosam
+              voluptate, dolore illo doloremque amet deserunt vero nisi quasi
+              nobis laudantium eligendi harum?
+            </p>
+            <p class="guests__opinion">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              vel dolorum incidunt aspernatur? Veniam, cum maiores. Pariatur
+              repudiandae dignissimos nostrum, voluptatum rerum non suscipit
+              quod, itaque commodi deleniti culpa. Ullam!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="contact section" id="contact">
+        <div>
+          <p class="contact__description">
+            Feel free to reach out to me any time. I prefer to talk over email,
+            especially since we may be a few time zones away.
+          </p>
+          <a href="mailto:hassanhamdyfarid@gmail.com" class="contact__email"
+            >hassanhamdyfarid@gmail.com</a
+          >
+          <div class="contact__socials">
+            <a
+              href="https://www.facebook.com/profile.php?id=100088743982905"
+              target="_blank"
+              class="contact__social"
+              ><img src="/images/brand/facebook.svg" alt="facebook icon" /></a
+            ><a
+              href="https://github.com/HassanHandal"
+              target="_blank"
+              class="contact__social"
+              ><img src="/images/brand/github.svg" alt="github icon" /></a
+            ><a
+              href="https://www.linkedin.com/in/hassan-handal/"
+              target="_blank"
+              class="contact__social"
+              ><img src="/images/brand/LinkedIn.svg" alt="linkedin icon"
+            /></a>
+          </div>
+        </div>
+        <div class="contact__formcontent">
+          <h2 class="h2-heading">
+            Let's Work <br />
+            together
+          </h2>
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                type="text"
+                class="contact__input"
+                placeholder="Full Name"
+                required
+                name="fullname"
+              />
+              <input
+                type="tel"
+                class="contact__input"
+                placeholder="Phone No."
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                required
+                name="telephone"
+              />
+            </div>
+            <textarea
+              name="description"
+              id="description"
+              rows="1"
+              class="contact__input contact__textarea"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <input type="submit" class="contact__button" value="Send Message" />
+          </form>
+        </div>
+      </section>
+      <footer class="footer">&COPY; 2024 By Hassan</footer>
+    </div>
+  </body>
+</html>
